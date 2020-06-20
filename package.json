@@ -6,13 +6,17 @@
 		"src": "./src"
 	},
 	"scripts": {
-		"start": "cross-env NODE_ENV=development parcel serve src/index.html --port=8080",
+		"serve": "cross-env NODE_ENV=development parcel serve src/index.html --port=8080",
 		"build": "cross-env NODE_ENV=production parcel build src/index.html"
 	},
 	"dependencies": {
+		"immer": "^7.0.3",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"react-router-dom": "^5.2.0"
+		"react-redux": "^7.2.0",
+		"react-router-dom": "^5.2.0",
+		"redux": "^4.0.5",
+		"redux-thunk": "^2.3.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.10.3",
@@ -27,6 +31,7 @@
 		"eslint-plugin-react": "^7.20.0",
 		"eslint-plugin-react-hooks": "^4.0.4",
 		"parcel-bundler": "^1.12.4",
-		"prettier": "^2.0.5"
+		"prettier": "^2.0.5",
+		"typescript": "^3.9.5"
 	}
 }
