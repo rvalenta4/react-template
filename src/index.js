@@ -1,9 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import { Provider } from "react-redux"
-import store from "~/redux/store"
+import store from "src/redux/store"
 import { Route, BrowserRouter as Router } from "react-router-dom"
-import { Home } from "~/components/home/Home"
+import { Home } from "src/components/home/Home"
 
 export const Index = () => {
 	return (
