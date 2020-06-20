@@ -1,4 +1,4 @@
-import { ADD_ONE, SUBTRACT_ONE } from "src/components/home/homeConsts"
+import { ADD_ONE, SUBTRACT_ONE } from "~/components/home/homeConsts"
 
 const addOne = () => ({
 	type: ADD_ONE,
