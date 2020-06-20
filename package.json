@@ -6,6 +6,12 @@
 	"alias": {
 		"src": "./src"
 	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
+		]
+	},
 	"scripts": {
 		"serve": "cross-env NODE_ENV=development parcel serve src/index.html --port=8080",
 		"build": "cross-env NODE_ENV=production parcel build src/index.html",

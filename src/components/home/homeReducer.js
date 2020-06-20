@@ -1,5 +1,5 @@
-import produce, { Draft } from "immer"
-import { ADD_ONE, SUBTRACT_ONE } from "src/components/home/homeConsts"
+import { produce } from "immer"
+import { ADD_ONE, SUBTRACT_ONE } from "./homeConsts"
 
 const initialState = {
 	counter: 0,
