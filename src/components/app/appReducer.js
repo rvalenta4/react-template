@@ -1,5 +1,5 @@
 import { produce } from "immer"
-import { ADD_ONE, SUBTRACT_ONE } from "./homeConsts"
+import { ADD_ONE, SUBTRACT_ONE } from "./appConsts"
 
 const initialState = {
 	counter: 0,

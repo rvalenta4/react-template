@@ -3,12 +3,12 @@ import ReactDOM from "react-dom"
 import { Provider } from "react-redux"
 import store from "./redux/store"
 import { Route, BrowserRouter as Router } from "react-router-dom"
-import { Home } from "./components/home/Home"
+import App from "./components/app/app"
 
 export const Index = () => {
 	return (
 		<Router>
-			<Route exact path="/" component={Home} />
+			<Route exact path="/" component={App} />
 		</Router>
 	)
 }
