@@ -1,8 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Route, BrowserRouter as Router } from "react-router-dom";
+import { Home } from "src/components/Home";
 
-const App = () => {
-  return <h1>React Template</h1>;
+export const App = () => {
+  return (
+    <Router>
+      <Route exact path="/" component={Home} />
+    </Router>
+  );
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
