@@ -3,7 +3,7 @@ import ReactDOM from "react-dom"
 import { Provider } from "react-redux"
 import store from "./redux/store"
 import { Route, BrowserRouter as Router } from "react-router-dom"
-import App from "./components/app/app"
+import App from "./app"
 
 export const Index = () => (
 	<Router>

@@ -1,6 +1,6 @@
 import React from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { addOne, subtractOne } from "./appActions"
+import { addOne, subtractOne } from "./redux/app/appActions"
 
 const App = () => {
 	const dispatch = useDispatch()
@@ -9,7 +9,7 @@ const App = () => {
 	return (
 		<>
 			<div>App</div>
-			<div>{counter}</div>
+			<div>Counter: {counter}</div>
 			<button onClick={() => dispatch(addOne())}>Add 1</button>
 			<button onClick={() => dispatch(subtractOne())}>Subtract 1</button>
 		</>
