@@ -1,6 +1,6 @@
-import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { addOne, subtractOne } from 'src/components/home/homeActions'
+import React from "react"
+import { useDispatch, useSelector } from "react-redux"
+import { addOne, subtractOne } from "src/components/home/homeActions"
 
 export const Home = () => {
 	const dispatch = useDispatch()

@@ -5,32 +5,32 @@ module.exports = {
 		node: true,
 	},
 	extends: [
-		'plugin:react/recommended',
-		'plugin:jsx-a11y/recommended',
-		'plugin:import/recommended',
-		'plugin:prettier/recommended',
+		"plugin:react/recommended",
+		"plugin:jsx-a11y/recommended",
+		"plugin:import/recommended",
+		"plugin:prettier/recommended",
 	],
-	plugins: ['react-hooks'],
+	plugins: ["react-hooks"],
 	globals: {
-		Atomics: 'readonly',
-		SharedArrayBuffer: 'readonly',
+		Atomics: "readonly",
+		SharedArrayBuffer: "readonly",
 	},
 	parserOptions: {
 		ecmaVersion: 2018,
-		sourceType: 'module',
+		sourceType: "module",
 	},
 	rules: {
-		'react-hooks/rules-of-hooks': 'error',
-		'react-hooks/exhaustive-deps': 'warn',
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
 	},
 	settings: {
 		react: {
-			version: 'detect',
+			version: "detect",
 		},
-		'import/resolver': {
+		"import/resolver": {
 			alias: {
-				map: [['src', './src']],
-				extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.css', '.scss'],
+				map: [["src", "./src"]],
+				extensions: [".js", ".jsx", ".ts", ".tsx", ".json", ".css", ".scss"],
 			},
 		},
 	},
