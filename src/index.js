@@ -5,13 +5,11 @@ import store from "./redux/store"
 import { Route, BrowserRouter as Router } from "react-router-dom"
 import App from "./components/app/app"
 
-export const Index = () => {
-	return (
-		<Router>
-			<Route exact path="/" component={App} />
-		</Router>
-	)
-}
+export const Index = () => (
+	<Router>
+		<Route exact path="/" component={App} />
+	</Router>
+)
 
 ReactDOM.render(
 	<Provider store={store}>
