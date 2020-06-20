@@ -10,9 +10,9 @@
 		]
 	},
 	"scripts": {
-		"serve": "cross-env NODE_ENV=development parcel serve src/index.html --port=8080",
-		"build": "cross-env NODE_ENV=production parcel build src/index.html",
-		"format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss}'"
+		"serve": "cross-env NODE_ENV=development parcel serve ./src/index.html --port=8080",
+		"build": "cross-env NODE_ENV=production parcel build ./src/index.html",
+		"format": "prettier --write './src/**/*.{js,jsx,ts,tsx,json,css,scss}'"
 	},
 	"dependencies": {
 		"immer": "^7.0.3",
