@@ -5,7 +5,7 @@ import store from "./redux/store";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import App from "./app";
 
-export const Index = () => (
+const Index = () => (
 	<Router>
 		<Route exact path="/" component={App} />
 	</Router>
