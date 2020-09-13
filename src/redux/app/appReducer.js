@@ -5,7 +5,7 @@ const initialState = {
 	counter: 0,
 };
 
-const homeReducer = (state = initialState, action) => {
+const appReducer = (state = initialState, action) => {
 	return produce(state, (draft) => {
 		switch (action.type) {
 			case ADD_ONE: {
@@ -23,4 +23,4 @@ const homeReducer = (state = initialState, action) => {
 	});
 };
 
-export default homeReducer;
+export default appReducer;
